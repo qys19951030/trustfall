@@ -38,6 +38,8 @@
 
 use std::{collections::BTreeMap, sync::Arc};
 
+pub mod aggregate;
+
 /// Components needed to implement data providers.
 pub mod provider {
     pub use trustfall_core::interpreter::basic_adapter::BasicAdapter;
